@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.clearfix {
+    clear: both;
+}
+
+body {
+    margin: 0px;
+    font-family: "Raleway", "Arial", sans-serif;
+}
+.barra_superior {
+    border-bottom: 1px solid rgb(204, 204, 204);
+    color: rgb(187, 187, 187);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+nav {
+    color: rgb(187, 187, 187);
+    font-size: 15px;
+    float: right;
+    margin-top: 50px;
+}
+
+nav a {
+    color: rgb(187, 187, 187);
+    text-decoration: none;  
+}
+
+nav .btn_destaque {
+    margin-left: 50px;
+}
+
+.btn_destaque, .metade input[type=submit] {
+    border: none;
+    background-color: #6DB4F2;
+    color: white;
+    padding: 12px 40px;
+    border-radius: 3px;
+    font-size: 16px;
+    text-decoration: none;  
+}
+
+.sec01 {
+    height: 640px;
+    color: white;
+    background-image: url(../img/desk.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sec01 p.titulo {
+    font-size: 48px;
+    padding-top: 130px;
+}
+
+.sec01 p {
+    font-size: 24px;
+    padding-bottom: 30px;
+    line-height: 120%;
+}
+
+.sec02 {
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.sec02 p {
+    font-size: 32px;
+    text-align: center;
+}
+
+.sec02 img {
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.sec03 {
+    height: 500px;
+    color: white;
+    background-image: url(../img/vinil.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sec03 p.title {
+    font-size: 42px;
+    padding-top: 130px;
+}
+
+.sec03 p {
+    font-size: 24px;
+    padding-bottom: 30px;
+    line-height: 120%;
+}
+
+.direitos {
+    background-color: #6AA2E5;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 45px;
+}
+
+.direitos a {
+    color: white;
+}
+
+.parte01 {
+    width: 33%;
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.parte01, .parte01 a {
+    color: rgb(136, 136, 136);
+}
+
+.parte01 .logo {
+    width: 100%;
+}
+
+.parte01 img {
+    width: 40px;
+}
+
+.margemleft {
+    margin: 30px;
+}
+
+.sec_fale, .sec_onde {
+    height: 500px;
+    background-color: #fafafa;
+}
+
+.sec_fale .metade {
+    padding-top: 80px;
+}
+
+.metade {
+    width: 50%;
+    float: left;
+    line-height: 150%;
+    color: rgb(120, 120, 120);
+}
+
+.metade div, .metade address {
+    margin-left: 20px;
+}
+
+.metade form {
+    line-height: 250%;
+}
+
+.metade form input[type=text], textarea {
+    border: none;
+    border-bottom: 1px solid lightgray;
+    width: 60%;
+    background-color: #fafafa;
+    padding: 10px;
+}
+
+.metade textarea {
+    min-height: 100px;
+}
+
+.metade input[type=submit] {
+    float: right;
+    margin-right: 40px;
+}
+
+.metade img {
+    width: 35px;
+}
+
+.metade label {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+@media screen and (max-width: 480px) {
+    .barra_superior .container {
+    margin-left: 10px;
+    }  
+    .logo {
+        width: 100%;
+    }
+    nav {
+        float: none;
+        margin-left: 10px;
+        text-align: center;
+        font-size: 18px;
+    }
+    nav .btn_destaque {
+        margin-left: 0px !important;
+    }
+    .sec01 p, .sec01 .btn_destaque {
+        margin-left: 20px;
+    }
+    .sec03 p, .sec03 .btn_destaque {
+        margin-left: 20px;
+        border-bottom: 1px solid rgb(204, 204, 204);
+    }
+    .parte01 {
+        width: 100%;
+        border-bottom: 1px solid rgb(204, 204, 204);
+        padding-left: 20px;
+    }
+    .margemleft {
+        margin-left: 0px; 
+    }
+    .parte01 .logo {
+        width: 50%;
+    }
+    .container_logo {
+        text-align: center;
+    }
+}
